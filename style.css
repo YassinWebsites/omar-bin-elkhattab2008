@@ -1,0 +1,134 @@
+/* ========================
+   إعدادات أساسية للجسم
+======================== */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #74ebd5, #ACB6E5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* ========================
+   الحاوية الرئيسية
+======================== */
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  text-align: center;
+  width: 350px;
+}
+
+/* ========================
+   العنوان
+======================== */
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* ========================
+   شعار المدرسة
+======================== */
+.logo {
+  width: 100px;        /* يمكنك تعديل الحجم حسب شعارك */
+  display: block;
+  margin: 0 auto 20px; /* مركزة فوق العنوان */
+}
+
+/* ========================
+   حقول الإدخال
+======================== */
+input[type="number"] {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+/* ========================
+   الأزرار
+======================== */
+button {
+  width: 60%;
+  padding: 10px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 8px;
+  background: #74ebd5;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #ACB6E5;
+}
+
+/* ========================
+   الرسائل
+======================== */
+#msg {
+  color: red;
+  margin-top: 10px;
+}
+
+/* ========================
+   الجدول
+======================== */
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+}
+
+th {
+  background-color: #74ebd5;
+  color: #fff;
+}
+
+/* ========================
+   تحسين أزرار متعددة
+======================== */
+button + button {
+  margin-top: 10px; /* مسافة بين الأزرار إذا أكثر من زر */
+}
+/* =========================
+      الهيدر العلوي
+========================= */
+.header {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(6px);
+  padding: 15px 20px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: center; /* ← يحط الاسم في النص */
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  z-index: 1000;
+}
+
+.school-title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #ffffff;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+  text-align: center;  /* مهم لو الشاشة صغيرة */
+}
+
+
