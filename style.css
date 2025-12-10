@@ -1,6 +1,4 @@
-/* ========================
-   إعدادات أساسية للجسم
-======================== */
+
 body {
   font-family: Arial, sans-serif;
   background: linear-gradient(to right, #74ebd5, #ACB6E5);
@@ -9,40 +7,31 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
+  padding: 0;
 }
 
-/* ========================
-   الحاوية الرئيسية
-======================== */
+
 .container {
   background: white;
   padding: 30px;
   border-radius: 15px;
   box-shadow: 0 10px 25px rgba(0,0,0,0.2);
   text-align: center;
-  width: 350px;
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
 }
 
-/* ========================
-   العنوان
-======================== */
 h1 {
   margin-bottom: 20px;
   color: #333;
 }
 
-/* ========================
-   شعار المدرسة
-======================== */
-.logo {
-  width: 100px;        /* يمكنك تعديل الحجم حسب شعارك */
-  display: block;
-  margin: 0 auto 20px; /* مركزة فوق العنوان */
-}
 
-/* ========================
-   حقول الإدخال
-======================== */
+
+
+
+
 input[type="number"] {
   width: 80%;
   padding: 10px;
@@ -52,9 +41,7 @@ input[type="number"] {
   font-size: 16px;
 }
 
-/* ========================
-   الأزرار
-======================== */
+
 button {
   width: 60%;
   padding: 10px;
@@ -71,17 +58,12 @@ button:hover {
   background: #ACB6E5;
 }
 
-/* ========================
-   الرسائل
-======================== */
+
 #msg {
   color: red;
   margin-top: 10px;
 }
 
-/* ========================
-   الجدول
-======================== */
 table {
   width: 100%;
   margin-top: 20px;
@@ -100,15 +82,12 @@ th {
   color: #fff;
 }
 
-/* ========================
-   تحسين أزرار متعددة
-======================== */
+
+
 button + button {
-  margin-top: 10px; /* مسافة بين الأزرار إذا أكثر من زر */
+  margin-top: 10px; 
 }
-/* =========================
-      الهيدر العلوي
-========================= */
+
 .header {
   width: 100%;
   background: rgba(255, 255, 255, 0.25);
@@ -118,7 +97,7 @@ button + button {
   top: 0;
   right: 0;
   display: flex;
-  justify-content: center; /* ← يحط الاسم في النص */
+  justify-content: center; 
   box-shadow: 0 4px 15px rgba(0,0,0,0.1);
   z-index: 1000;
 }
@@ -128,7 +107,8 @@ button + button {
   font-weight: bold;
   color: #ffffff;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
-  text-align: center;  /* مهم لو الشاشة صغيرة */
+  text-align: center;  
 }
+
 
 
