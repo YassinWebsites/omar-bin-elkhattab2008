@@ -8,7 +8,7 @@
   {"id":107,"name":"كريم علاء","arabic":78,"english":58,"science":39,"social":40,"math":60},
   {"id":108,"name":"حمزة أشرف","arabic":60,"english":45,"science":30,"social":32,"math":48},
   {"id":109,"name":"مصطفى أمجد","arabic":62,"english":46,"science":31,"social":33,"math":50},
-  {"id":110,"name":"يوسف طارق","arabic":74,"english":54,"science":37,"social":39,"math":57},
+  {"id":110,"name":"يوسف علاء","arabic":74,"english":54,"science":37,"social":39,"math":57},
   {"id":111,"name":"أدهم محمود","arabic":76,"english":56,"science":38,"social":40,"math":58},
   {"id":112,"name":"زياد هشام","arabic":64,"english":44,"science":29,"social":34,"math":49},
   {"id":113,"name":"عبدالله خالد","arabic":69,"english":50,"science":35,"social":37,"math":53},
@@ -50,3 +50,4 @@
   {"id":149,"name":"أنور عماد","arabic":70,"english":50,"science":35,"social":37,"math":55},
   {"id":150,"name":"خالد مؤمن","arabic":72,"english":52,"science":36,"social":38,"math":56}
 ]
+
